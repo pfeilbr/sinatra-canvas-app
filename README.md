@@ -7,20 +7,21 @@ A salesforce canvas app built using sinatra.  Uses [restforce](https://github.co
 
 1. Install [Tunnels](https://github.com/jugyo/tunnels)
 
-	gem install tunnels
+		gem install tunnels
 
 2. Run app locally and note the port (5000 in the usual case)
 
-	foreman start
+		foreman start
 
 3. Run tunnels.  Change the destinattion port (5000) if needed
 
-	rvmsudo tunnels 443 5000
+		rvmsudo tunnels 443 5000
 
-4. Login to salesfroce with brian.pfeil.1@gmail.com developer org
-5. Visit visualforce page at
+4. Navigate to https://localhost/canvas in browser and accept SSL issue (not trusted)
 
-	```/apex/CanvasAppExample```
+5. Login to salesforce org (e.g. brian.pfeil.1@gmail.com) and visit visualforce page at
+
+		/apex/CanvasAppExample
 
 ## Resources
 
