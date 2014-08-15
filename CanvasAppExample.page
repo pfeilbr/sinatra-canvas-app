@@ -1,0 +1,3 @@
+<apex:page >
+    <apex:canvasApp applicationName="Sinatra_Canvas_App" scrolling="yes" parameters="{name: 'brian', age: 36}"/>
+</apex:page>

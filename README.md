@@ -23,6 +23,8 @@ A salesforce canvas app built using sinatra.  Uses [restforce](https://github.co
 
 		/apex/CanvasAppExample
 
+NOTE: If testing in different org, deploy CanvasAppExample.page to it
+
 ## Resources
 
 * [Sample Ruby on Rails Force.com Canvas App](http://blog.jeffdouglas.com/2014/03/04/sample-ruby-on-rails-force-com-canvas-app/?utm_source=feedly&utm_reader=feedly&utm_medium=rss&utm_campaign=sample-ruby-on-rails-force-com-canvas-app)
